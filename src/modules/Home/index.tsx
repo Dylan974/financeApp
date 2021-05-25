@@ -1,5 +1,5 @@
-import { Typography } from "@material-ui/core";
-import React from "react";
+import { Typography } from '@material-ui/core';
+import React from 'react';
 
 const Home = () => {
   return (
@@ -7,6 +7,6 @@ const Home = () => {
       Finance Application
     </Typography>
   );
-}
+};
 
 export default Home;
