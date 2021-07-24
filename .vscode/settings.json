@@ -28,6 +28,6 @@
   "editor.defaultFormatter": "rbbit.typescript-hero",
   "editor.formatOnSave": true,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

@@ -1,5 +1,4 @@
-import { AppBar, IconButton, makeStyles, Toolbar } from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
+import { AppBar, makeStyles, Toolbar } from '@material-ui/core';
 import React from 'react';
 
 const useStyles = makeStyles((theme) => ({
@@ -19,16 +18,7 @@ const NavBar = () => {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Toolbar>
-          <IconButton
-            className={classes.menuButton}
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-          >
-            <MenuIcon />
-          </IconButton>
-        </Toolbar>
+        <Toolbar />
       </AppBar>
     </div>
   );
